@@ -18,7 +18,17 @@ def assignments_num(num):
     handler = assignment_handler()
     assignments = handler.grab_assignments_dict(num)
     return assignments
+def SportAction():
+    print("The Player Scored the cruial goal")
+
 
 if __name__ =='__main__':
-    app.run(debug=True)
+    #app.run(debug=True)
+    print(SportAction())
+# Installing 
+
+
+    
+   
+   
 
